@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    height: 6000px;
+    font-family: sans-serif;
+}
+
+div {
+    margin-top: 500px;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transform: rotate(-360deg);
+    transition: all 0.5s;
+}

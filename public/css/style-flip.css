@@ -52,6 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .card__face--front h2 {
@@ -89,11 +90,11 @@ body {
 
 .pp {
     display: block;
-    width: 128px;
-    height: 128px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto 30px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: #f3f3f3;
     border: 5px solid #f3f3f3
 }

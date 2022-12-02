@@ -44,6 +44,10 @@ a {
     text-decoration-line: none;
 }
 
+a:hover {
+    color: #e64444;
+}
+
 .logo {
     color: #E6917A;
     text-decoration-line: none;

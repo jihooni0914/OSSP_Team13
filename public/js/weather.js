@@ -32,6 +32,7 @@ function loadWeather(data) {
     let minTemp = document.querySelector('.min-temp');
     let maxTemp = document.querySelector('.max-temp');
     let icon = document.querySelector('.icon');
+    let weatherIcon = data.weather[0].icon;
 
     let date = new Date();
     console.log(date);
@@ -45,7 +46,7 @@ function loadWeather(data) {
     feelsLike.append(`${data.main.feels_like}°`);
     minTemp.append(`${data.main.temp_min}°`);
     maxTemp.append(`${data.main.temp_max}°`);
-    icon.innerHTML = `<img src='https://raw.githubusercontent.com/yuvraaaj/openweathermap-api-icons/master/icons/01d.png'>`;
+    icon.innerHTML = icon.innerHTML = `<img src='http://openweathermap.org/img/wn/${weatherIcon}.png'>`;
 
     currentTime.append(`${month}월 ${day}일 ${hours}:${minutes}`);
 }

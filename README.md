@@ -31,6 +31,8 @@ LUVWAY
 프로젝트 테스트를 위해서는 node와 npm이 설치되어 있어야 합니다.
 
 express package 사용을 위해 npm을 통해 다운로드합니다.
+
+프로젝트에는 npm package가 설치되어 있지 않으므로 아래의 -g를 통해 global로 install하시기를 권장드립니다.
 ```
 npm install express
 

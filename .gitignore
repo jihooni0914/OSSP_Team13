@@ -1,3 +1,2 @@
 # ignore images
-*.png
-dataset/*
+public/dataset/*

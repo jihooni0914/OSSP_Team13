@@ -35,9 +35,6 @@ span {
 
 .logo {
     color: #E6917A;
-    /* border: solid #E6917A 3px;
-    padding-left: 20px;
-    padding-right: 20px; */
     text-decoration-line: none;
 }
 
@@ -133,10 +130,22 @@ section {
 
 .heart {
     width: 30%;
-    top: 350px;
+    top: 250px;
     left: 35%;
-    /* right: 50%; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     position: absolute;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: 1.5s fade-in 3s ease-out forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

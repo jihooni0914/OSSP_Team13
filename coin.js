@@ -8,7 +8,7 @@ let before_t = parseInt(before.getHours()) * 3600 + parseInt(before.getMinutes()
 
 let coins = 5;
 let tmp1 = 0;
-const delay_time = 10
+const delay_time = 600
 
 function coin() {
     let after = new Date();

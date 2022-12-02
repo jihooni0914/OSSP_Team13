@@ -1,12 +1,12 @@
-let mainText = document.querySelector("#photo-text")
+const heart_canvas = document.querySelector("#canvas")
+const flip_card_link = "flip-card.html"
+console.log(heart_canvas)
 
-window.addEventListener("scroll", () => {
-    let scroll = window.scrollY
+heart_canvas.addEventListener("click", () => {
+    let opacity = window.getComputedStyle(heart_canvas).getPropertyValue("opacity");
 
-    if (scroll > 100) {
-        mainText.style.animation = "slide-text-out 1s ease-in forwards"
-    }
-    else {
-        mainText.style.animation = "slide-text-in 1s ease-out"
+    if (opacity === "1") {
+        location.href = flip_card_link;
+        window.open(flip_card_link);
     }
 })

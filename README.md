@@ -95,8 +95,25 @@ node coin.js
 
 
 ## Examples
+아래에 있는 예시들은 웹페이지를 새로고침 할 때마다 랜덤으로 새로운 카드가 나오는 것을 보여주기 위해 3개의 카드를 뽑았다. 
+
+<img src="img/3.png">
+올림픽공원역
+
+<img src="img/4.png">
+제기동역
+
+<img src="img/5.png">
+뚝섬유원지역
+
 
 ## Screenshots
+<img src="img/0.png">
+<img src="img/1.png">
+<img src="img/2.png">
+<img src="img/3.png">
+<img src="img/3-1.png">
+<img src="img/3-2.png">
 
 ## Presentation video Youtube link
 

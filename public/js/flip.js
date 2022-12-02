@@ -3,6 +3,7 @@ const card_img = document.querySelector("#card-image")
 const card_name = document.querySelector("#card-name")
 const card_body = document.querySelector("#card-body")
 const card_tags = document.querySelector("#card-tags")
+const subway_line = document.querySelector("#line")
 
 const insta_link = document.querySelector("#insta")
 const naver_link = document.querySelector("#naver")
@@ -86,15 +87,18 @@ function setPlaceAndTags(xml) { // ( xml ) 객체 넘겨받기
 
     place = xmlDoc.getElementsByTagName("place");
     tags = xmlDoc.getElementsByTagName("tag");
+    lines = xmlDoc.getElementsByTagName("line")
     console.log(tags.length);
 
     placetxt = place[0].childNodes[0].nodeValue
     tagstxt = ""
+    linetxt = lines[0].childNodes[0].nodeValue
 
     for (i = 0; i < tags.length; i++) {
         tagstxt += "#" + tags[i].childNodes[0].nodeValue + "&nbsp";
     }
 
+    subway_line.innerHTML = linetxt;
     card_name.innerHTML = placetxt
     card_tags.innerHTML = tagstxt;
 

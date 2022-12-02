@@ -67,5 +67,7 @@ localhost:3000
 
 배포 이전 대부분의 작업은 dev 브랜치로 Pull Request 해주시기 바랍니다.
 
+dev 브랜치에서는 dataset을 포함하지 않습니다.
+
 commit format : "date-initial-count : [message]"
 ex) git commit -m "14-Y-0 : fix ~~~"

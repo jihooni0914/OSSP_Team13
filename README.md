@@ -120,6 +120,7 @@ node coin.js
 <img src="img/3-2.png">
 
 ## Presentation video Youtube link
+https://youtu.be/KWVfxaNHasM
 
 ## Contributing
 
@@ -129,3 +130,5 @@ dev 브랜치에서는 dataset을 포함하지 않습니다.
 
 commit format : "date-initial-count : [message]"
 ex) git commit -m "14-Y-0 : fix ~~~"
+
+우수프로젝트 시상 프로그램에 지원합니다.

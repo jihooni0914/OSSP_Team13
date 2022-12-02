@@ -62,8 +62,8 @@ card.addEventListener("click", () => {
                 return;
             }
 
-            // let random_num = String(Math.floor(Math.random() * (MAX_IMAGE_NUM - MIN_IMAGE_NUM)) + MIN_IMAGE_NUM);
-            let random_num = String(22);
+            let random_num = String(Math.floor(Math.random() * (MAX_IMAGE_NUM - MIN_IMAGE_NUM)) + MIN_IMAGE_NUM);
+            console.log(random_num)
 
             // add image
             card_img.src = DEFAULT_IMAGE_ROOT + random_num + ".png";

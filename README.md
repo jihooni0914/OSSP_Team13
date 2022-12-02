@@ -25,6 +25,38 @@ LUVWAY
 5. 인스타그램, 네이버 지도를 클릭하면 해당 링크로 연결되며 추천 지하철역의 즐길거리를 직접 찾아볼 수도 있습니다.
 6. 그날의 날씨도 함께 띄워지니 적절한 옷차림과 함께 데이트를 즐겨주시면 됩니다!
 
+
+# How to test
+
+프로젝트 테스트를 위해서는 node와 npm이 설치되어 있어야 합니다.
+
+express package 사용을 위해 npm을 통해 다운로드합니다.
+```
+npm install express
+
+or
+
+npm install -g express // global install
+```
+
+root 폴더 내의 coin.js를 실행하면 로컬 호스트 서버를 이용할 수 있습니다.
+```
+node coin.js
+```
+
+coin.js에는 로컬 호스트 서버의 port 정보가 담겨 있습니다.
+해당 코드를 수정해 port를 변경할 수 있습니다.
+```
+const port = 3000
+```
+
+브라우저에서 localhost:3000을 입력해 테스트 페이지에 접속할 수 있습니다.
+```
+localhost:3000
+```
+
+
+
 ## Examples
 
 ## Screenshots
@@ -32,5 +64,8 @@ LUVWAY
 ## Presentation video Youtube link
 
 ## Contributing
+
+배포 이전 대부분의 작업은 dev 브랜치로 Pull Request 해주시기 바랍니다.
+
 commit format : "date-initial-count : [message]"
 ex) git commit -m "14-Y-0 : fix ~~~"
